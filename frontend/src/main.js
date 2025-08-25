@@ -1,4 +1,6 @@
-const API_BASE = 'http://localhost:8000';
+// Base URL for backend API requests
+// Updated to point to the deployed Render service instead of local development server.
+const API_BASE = 'https://personal-finance-app-7o6c.onrender.com';
 
 function renderApp() {
   document.getElementById('app').innerHTML = `
